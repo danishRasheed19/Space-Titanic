@@ -34,12 +34,14 @@ The goal is to predict whether passengers were **Transported** to another dimens
 
 The best individual tuned model was **Gradient Boosting**, achieving an accuracy of approximately **80.38%** on the test data.
 
-| Model | CV Accuracy |
+| Model | Accuracy |
 |---|---:|
-| XGBoost | **80.85%** |
-| Gradient Boosting | 80.62% |
-| Random Forest | 80.31% |
-| Logistic Regression | 79.03% |
+| XGBoost | 80.20% |
+| Gradient Boosting | **80.38%** |
+| Random Forest | 79.21% |
+| Logistic Regression | 79.38% |
+| Soft Voting Classifier | 80.31% |
+
 
 ## Tools
 
